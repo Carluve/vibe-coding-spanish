@@ -1,103 +1,139 @@
 <p align="center">
-  <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" alt="Cloudflare Logo" width="280">
+  <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" alt="Cloudflare Logo" width="300">
 </p>
 
-<h1 align="center">Cloudflare España — Índice de Recursos</h1>
+<h1 align="center">☁️ Cloudflare en Español</h1>
 
 <p align="center">
-  Repositorios oficiales · Documentación · Guías en Español<br>
-  <em>Todo lo que necesitas para construir, proteger y escalar en Cloudflare</em>
+  <strong>El índice de recursos más completo para la comunidad hispanohablante de Cloudflare</strong><br>
+  Repositorios oficiales · Guías prácticas · Ejemplos reales · Herramientas de IA
 </p>
 
 <p align="center">
-  <a href="https://github.com/cloudflare">GitHub Oficial</a> ·
-  <a href="https://developers.cloudflare.com/">Documentación</a> ·
-  <a href="https://community.cloudflare.com/">Foro</a> ·
-  <a href="https://discord.cloudflare.com/">Discord</a> ·
-  <a href="https://blog.cloudflare.com/">Blog</a>
+  <a href="https://developers.cloudflare.com/">📚 Docs Oficiales</a> &nbsp;·&nbsp;
+  <a href="https://github.com/cloudflare">🐙 GitHub Cloudflare</a> &nbsp;·&nbsp;
+  <a href="https://community.cloudflare.com/">💬 Foro</a> &nbsp;·&nbsp;
+  <a href="https://discord.cloudflare.com/">🎮 Discord</a> &nbsp;·&nbsp;
+  <a href="https://blog.cloudflare.com/">✍️ Blog</a>
 </p>
 
-> **Aviso importante:** Este es un recurso comunitario, no oficial. La información puede estar desactualizada, ser incorrecta o incompleta. Verifica siempre en la [documentación oficial de Cloudflare](https://developers.cloudflare.com/) antes de usarla en producción. Los mantenedores de este repositorio no nos hacemos responsables de ningún problema derivado del uso de esta información.
+---
+
+> ⚠️ **Aviso importante:** Este es un recurso comunitario, independiente y no oficial.
+> La información puede contener errores o estar desactualizada. **Verifica siempre en la
+> [documentación oficial](https://developers.cloudflare.com/) antes de usar en producción.**
+> Los mantenedores no asumen ninguna responsabilidad por problemas derivados del uso de este contenido.
 
 ---
 
-## Sobre este repositorio
+## ¿Qué encontrarás aquí?
 
-Índice comunitario de recursos para desarrolladores e ingenieros hispanohablantes que trabajan con Cloudflare. Encontrarás enlaces directos a repositorios oficiales, documentación clave y guías prácticas en español.
+Este repositorio nació con una idea simple: que cualquier desarrollador hispanohablante pueda entender y usar Cloudflare sin tener que navegar entre documentación en inglés dispersa por decenas de repositorios.
 
-La plataforma de Cloudflare se organiza en cuatro grandes áreas:
-
-| Área | Qué cubre |
-|------|-----------|
-| [**Application Services**](docs/application-services.md) | CDN, WAF, DDoS, Bot Management, DNS, Load Balancing, SSL/TLS |
-| [**SASE / Zero Trust**](docs/zero-trust.md) | Cloudflare One, WARP, Gateway, Access, Tunnel, DLP, CASB |
-| [**Developer Platform**](docs/developer-platform.md) | Workers, Pages, D1, R2, KV, Durable Objects, Queues, Workflows |
-| [**Agentic AI**](docs/agentic-ai.md) | Workers AI, Agents SDK, AI Gateway, Vectorize, MCP |
+Aquí tienes todo organizado: desde añadir tu primer dominio hasta construir agentes de IA con estado persistente en el edge.
 
 ---
 
-## Índice completo
+## 🗂️ Índice de contenidos
 
-**Plataforma**
-- [Application Services](docs/application-services.md) — Rendimiento, seguridad y fiabilidad web
-- [SASE / Zero Trust](docs/zero-trust.md) — Acceso seguro sin VPN
-- [Developer Platform](docs/developer-platform.md) — Serverless y edge computing
-- [Agentic AI](docs/agentic-ai.md) — IA en el edge con agentes y MCP
-- [AI Gateway](docs/ai-gateway.md) — Proxy de inferencia con caché, logs y fallbacks
-- [Infraestructura como Código](docs/iac.md) — Terraform, cf-terraforming
-- [SDKs y Librerías](docs/sdks.md) — TypeScript, Python, Go, Rust
-- [Templates y Starters](docs/templates.md) — Proyectos de inicio oficiales
+### La plataforma
 
-**Herramientas y flujos de trabajo**
-- [Vibe Coding con OpenCode](docs/vibe-coding-opencode.md) — Desarrollo asistido por IA en terminal
-- [Integraciones con VS Code](docs/vscode-integraciones.md) — MCP, Skills, extensiones y debugging
+| Sección | Qué aprenderás |
+|---------|---------------|
+| [🌐 Application Services](docs/application-services.md) | CDN, WAF, DDoS, DNS, SSL/TLS, Load Balancing, Bot Management |
+| [🔒 SASE / Zero Trust](docs/zero-trust.md) | Cloudflare One, Access, Gateway, Tunnel, WARP, DLP |
+| [⚡ Developer Platform](docs/developer-platform.md) | Workers, Pages, D1, R2, KV, Durable Objects, Queues, Workflows |
+| [🤖 Agentic AI](docs/agentic-ai.md) | Workers AI, Agents SDK, Vectorize, MCP |
+| [🔀 AI Gateway](docs/ai-gateway.md) | Proxy de inferencia, caché, fallbacks, observabilidad |
+| [🏗️ Infraestructura como Código](docs/iac.md) | Terraform, cf-terraforming, automatización |
+| [📦 SDKs y Librerías](docs/sdks.md) | TypeScript, Python, Go, Rust |
+| [🚀 Templates y Starters](docs/templates.md) | Proyectos listos para arrancar |
 
-**Recursos en español**
-- [Guías en Español](docs/guias-espanol.md) — Documentación y tutoriales por nivel
-- [Recursos Comunitarios](docs/recursos-comunitarios.md) — Foro, Discord, Blog, Radar
-- [Cloudflare for Startups](docs/startups.md) — Hasta $250,000 USD en créditos para Iberia
+### Flujos de trabajo con IA
+
+| Sección | Qué aprenderás |
+|---------|---------------|
+| [🎵 Vibe Coding con OpenCode](docs/vibe-coding-opencode.md) | Desarrollo asistido por IA en terminal, Workers AI como backend |
+| [💻 Integraciones con VS Code](docs/vscode-integraciones.md) | MCP, Skills, GitHub Copilot, Continue.dev, debugging |
+
+### Comunidad y recursos
+
+| Sección | Qué encontrarás |
+|---------|----------------|
+| [🇪🇸 Guías en Español](docs/guias-espanol.md) | Tutoriales paso a paso, desde cero hasta avanzado |
+| [🌍 Recursos Comunitarios](docs/recursos-comunitarios.md) | Discord, foro, blog, Radar, eventos |
+| [💰 Cloudflare for Startups](docs/startups.md) | Hasta $250,000 USD en créditos para startups en Iberia |
 
 ---
 
-## Inicio rápido
+## ⚡ Arranca en 5 minutos
 
-**Developer Platform (Workers):**
+Elige tu punto de partida según lo que quieras construir:
+
+**Un Worker serverless (TypeScript):**
 ```bash
-npm create cloudflare@latest mi-proyecto
-cd mi-proyecto
-npm run dev
+npm create cloudflare@latest mi-worker
+# Selecciona "Hello World Worker"
+cd mi-worker && npm run dev
+# → http://localhost:8787
 ```
 
-**Agente IA:**
+**Una app full-stack con base de datos:**
 ```bash
-npx create-cloudflare@latest --template cloudflare/agents-starter
-cd agents-starter
-npm run dev
+npm create cloudflare@latest mi-app
+# Selecciona "Hono" y activa D1
+cd mi-app && npm run dev
 ```
 
-**Vibe Coding con OpenCode:**
+**Un agente de IA conversacional:**
+```bash
+npx create-cloudflare@latest mi-agente --template cloudflare/agents-starter
+cd mi-agente && npm run dev
+# → http://localhost:5173
+```
+
+**Desarrollo con IA (Vibe Coding):**
 ```bash
 npm install -g opencode-ai
-cd mi-proyecto
-opencode
-```
-
-**Zero Trust (Tunnel):**
-```bash
-brew install cloudflared
-cloudflared tunnel create mi-tunnel
-cloudflared tunnel run mi-tunnel
+cd mi-proyecto && opencode
+# Describe lo que quieres construir en lenguaje natural
 ```
 
 ---
 
-## Contribuir
+## 🧭 ¿Por dónde empezar?
 
-Lee la [Guía de Contribución](CONTRIBUTING.md) para añadir recursos, corregir errores o mejorar guías.
+```
+¿Tienes un sitio web y quieres protegerlo?
+  → Application Services: CDN + WAF + DDoS
+
+¿Quieres reemplazar tu VPN corporativa?
+  → SASE / Zero Trust: Cloudflare One + Tunnel
+
+¿Quieres construir una API o app serverless?
+  → Developer Platform: Workers + D1 + R2
+
+¿Quieres añadir IA a tu aplicación?
+  → Agentic AI + AI Gateway + Workers AI
+
+¿Quieres hacer todo lo anterior con IA?
+  → Vibe Coding con OpenCode o Claude Code
+```
+
+---
+
+## 🤝 Contribuir
+
+¿Encontraste un error? ¿Tienes una guía que añadir? Lee la [Guía de Contribución](CONTRIBUTING.md).
+
+Las contribuciones más valiosas son:
+- Correcciones de información incorrecta o desactualizada
+- Guías prácticas basadas en experiencia real
+- Ejemplos de código que realmente funcionen
 
 ---
 
 <p align="center">
-  <strong>Recurso comunitario — no afiliado oficialmente con Cloudflare, Inc.</strong><br>
-  <em>Los mantenedores no asumen responsabilidad por errores, omisiones ni daños derivados del uso de esta información.</em>
+  Hecho con ❤️ por la comunidad hispanohablante de Cloudflare<br>
+  <sub>No oficial · No afiliado con Cloudflare, Inc. · Los mantenedores no asumen responsabilidad por errores u omisiones</sub>
 </p>
