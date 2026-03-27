@@ -17,6 +17,8 @@
   <a href="https://blog.cloudflare.com/">Blog</a>
 </p>
 
+> **Aviso importante:** Este es un recurso comunitario, no oficial. La información puede estar desactualizada, ser incorrecta o incompleta. Verifica siempre en la [documentación oficial de Cloudflare](https://developers.cloudflare.com/) antes de usarla en producción. Los mantenedores de este repositorio no nos hacemos responsables de ningún problema derivado del uso de esta información.
+
 ---
 
 ## Sobre este repositorio
@@ -36,16 +38,24 @@ La plataforma de Cloudflare se organiza en cuatro grandes áreas:
 
 ## Índice completo
 
+**Plataforma**
 - [Application Services](docs/application-services.md) — Rendimiento, seguridad y fiabilidad web
 - [SASE / Zero Trust](docs/zero-trust.md) — Acceso seguro sin VPN
 - [Developer Platform](docs/developer-platform.md) — Serverless y edge computing
 - [Agentic AI](docs/agentic-ai.md) — IA en el edge con agentes y MCP
+- [AI Gateway](docs/ai-gateway.md) — Proxy de inferencia con caché, logs y fallbacks
 - [Infraestructura como Código](docs/iac.md) — Terraform, cf-terraforming
 - [SDKs y Librerías](docs/sdks.md) — TypeScript, Python, Go, Rust
 - [Templates y Starters](docs/templates.md) — Proyectos de inicio oficiales
-- [Guías en Español](docs/guias-espanol.md) — Documentación y tutoriales en español
+
+**Herramientas y flujos de trabajo**
+- [Vibe Coding con OpenCode](docs/vibe-coding-opencode.md) — Desarrollo asistido por IA en terminal
+- [Integraciones con VS Code](docs/vscode-integraciones.md) — MCP, Skills, extensiones y debugging
+
+**Recursos en español**
+- [Guías en Español](docs/guias-espanol.md) — Documentación y tutoriales por nivel
 - [Recursos Comunitarios](docs/recursos-comunitarios.md) — Foro, Discord, Blog, Radar
-- [Cloudflare for Startups](docs/startups.md) — Hasta $250,000 USD en créditos
+- [Cloudflare for Startups](docs/startups.md) — Hasta $250,000 USD en créditos para Iberia
 
 ---
 
@@ -58,11 +68,18 @@ cd mi-proyecto
 npm run dev
 ```
 
-**Agentic AI (Agente con IA):**
+**Agente IA:**
 ```bash
 npx create-cloudflare@latest --template cloudflare/agents-starter
 cd agents-starter
 npm run dev
+```
+
+**Vibe Coding con OpenCode:**
+```bash
+npm install -g opencode-ai
+cd mi-proyecto
+opencode
 ```
 
 **Zero Trust (Tunnel):**
@@ -81,5 +98,6 @@ Lee la [Guía de Contribución](CONTRIBUTING.md) para añadir recursos, corregir
 ---
 
 <p align="center">
-  <em>Recurso comunitario — no afiliado oficialmente con Cloudflare, Inc.</em>
+  <strong>Recurso comunitario — no afiliado oficialmente con Cloudflare, Inc.</strong><br>
+  <em>Los mantenedores no asumen responsabilidad por errores, omisiones ni daños derivados del uso de esta información.</em>
 </p>
